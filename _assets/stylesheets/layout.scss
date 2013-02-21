@@ -23,6 +23,11 @@
   position: absolute;
   bottom: 2em;
   left: 1.3em;
+  -webkit-animation-delay: 1.4s;
+}
+
+#blurb {
+  -webkit-animation-delay: .8s;
 }
 
 #sky {
@@ -52,12 +57,15 @@
   margin-top: 500px;
   bottom: -3.5em;
   right: 1em;
+  z-index: 9;
+  -webkit-animation-delay: .2s;
 }
 
 #jmp {
   bottom: 0;
   right: -4em;
-  -webkit-animation-delay: .2s;
+  -webkit-animation-delay: .4s;
+  z-index: 9;
 }
 
 #clouds_left {
@@ -67,6 +75,7 @@
   height: 700px;
   width: 299px;
   z-index: 1;
+  -webkit-animation-delay: .6s;
 }
 
 #clouds_right {
