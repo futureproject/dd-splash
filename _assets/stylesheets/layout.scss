@@ -1,0 +1,60 @@
+#canvas {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#sky {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  bottom: 1em;
+  left: 1em;
+  z-index: -1;
+}
+
+#city {
+  width: 1080px;
+  height: 462px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -231px 0 0 -540px;
+}
+
+#footer {
+  margin-top: -2em;
+}
+
+#sje {
+  margin-top: 500px;
+  bottom: -3.5em;
+  right: 1em;
+}
+
+#jmp {
+  bottom: 0;
+  right: -4em;
+  -webkit-animation-delay: .2s;
+}
+
+#cloud_1 {
+  top: 3em;
+  left: 0;
+}
+
+#cloud_2 {
+  top: 6em;
+  left: 0;
+}
+
+#cloud_3 {
+  top: 2em;
+  right: 0;
+}
+
+#cloud_4 {
+  top: 4em;
+  right: 0;
+}
