@@ -3,6 +3,26 @@
   height: 100%;
   width: 100%;
   overflow: hidden;
+  box-sizing: border-box;
+  padding: 2em;
+}
+
+#help {
+  margin: 24px;
+  z-index: 10;
+  position: relative;
+}
+
+#dds {
+  margin: 24px;
+  z-index: 10;
+  position: relative;
+}
+
+#apply_now {
+  position: absolute;
+  bottom: 2em;
+  left: 1.3em;
 }
 
 #sky {
@@ -21,6 +41,7 @@
   left: 50%;
   top: 50%;
   margin: -231px 0 0 -540px;
+  z-index: 0;
 }
 
 #footer {
@@ -39,22 +60,20 @@
   -webkit-animation-delay: .2s;
 }
 
-#cloud_1 {
-  top: 3em;
+#clouds_left {
+  position: absolute;
+  bottom: 0;
   left: 0;
+  height: 700px;
+  width: 299px;
+  z-index: 1;
 }
 
-#cloud_2 {
-  top: 6em;
-  left: 0;
-}
-
-#cloud_3 {
-  top: 2em;
+#clouds_right {
+  position: absolute;
+  bottom: 0;
   right: 0;
-}
-
-#cloud_4 {
-  top: 4em;
-  right: 0;
+  width: 326px;
+  height: 700px;
+  z-index: 1;
 }

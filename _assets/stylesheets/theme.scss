@@ -1,5 +1,6 @@
 html {
-  font-family: sans-serif;
+  font-family: "arial rounded mt bold", sans-serif;
+  color: #2b556b;
 }
 
 #sje {
@@ -18,7 +19,31 @@ html {
   background-color: #78D0EB;
 }
 
-.cloud {
-  background: whiteSmoke;
-  border: 1px solid;
+#clouds_left {
+  background-image: url(/images/clouds_l.png)
+}
+
+#clouds_right {
+  background-image: url(/images/clouds_r.png)
+}
+
+.bubble {
+  background: white;
+  border: 2px solid #2b556b;
+  box-shadow: -4px 4px 0 #2b556b;
+}
+
+h1, h2 {
+}
+
+h1 {
+  color: #f3f3f3;
+  font-size: 3em;
+  text-shadow: -.1em .1em #2b556b;
+  padding-left: 1em;
+  position: relative;
+  left: -1em;
+}
+h2 {
+  color: #2b556b;
 }
