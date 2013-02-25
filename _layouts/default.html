@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Own It</title>
+<title>Dream Directors</title>
 <link rel="shortcut icon" href="/images/favicon.png" />
-<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0" />
+<meta name="viewport" content="width=1024" />
 {% css_asset_tag global %}
 - /_assets/stylesheets/manifest.scss
 {% endcss_asset_tag %}
@@ -13,5 +13,10 @@
 <div id="footer">
   I am the footer.
 </div>
+{% javascript_asset_tag global %}
+- /_assets/javascripts/modernizr.js
+- /_assets/javascripts/spin.min.js
+- /_assets/javascripts/splash.js
+{% endjavascript_asset_tag %}
 </body>
 </html>

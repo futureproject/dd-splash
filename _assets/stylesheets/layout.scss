@@ -8,13 +8,13 @@
 }
 
 #help {
-  margin: 24px;
+  margin: 24px 24px 12px;
   z-index: 10;
   position: relative;
 }
 
 #dds {
-  margin: 24px;
+  margin: 12px 24px 24px;
   z-index: 10;
   position: relative;
 }
@@ -70,19 +70,19 @@
 
 #clouds_left {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 700px;
-  width: 299px;
+  top: 8em;
+  left: -10em;
+  width: 720px;
+  height: 428px;
   z-index: 1;
   -webkit-animation-delay: .6s;
 }
 
 #clouds_right {
   position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 326px;
-  height: 700px;
+  top: 1em;
+  right: 1em;
+  width: 535px;
+  height: 824px;
   z-index: 1;
 }
