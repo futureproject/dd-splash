@@ -2,16 +2,26 @@
 layout: default
 ---
 <div id="canvas">
+  <script>
+      if (!document.querySelector) {
+      window.location.href = "http://thefutureproject.org/index.html"
+    }
+    window.tfp = {}
+    tfp.body = document.querySelector('body')
+    tfp.canvas = document.getElementById('canvas')
+    tfp.canvas.style.visibility = "hidden"
+  </script>
   <h3 id="help">Help The Future Project find the next</h3>
   <h1 id="dds" class="anim fadeInDown">
     <a href="http://jobs.dream.org/">Dream Directors!
   </h1>
   <h4 class="bubble anim fadeInDown" id="blurb">
-    Somewhere out there are eight people creative and bold enough to transform
-    America's high schools. Will you help us find them?
+    Somewhere out there are eight people bold enough to shake up
+    America's high schools. Will you help us find them? Nominate someone
+    or apply.
   </h4>
   <h2 class="bubble anim fadeInUp" id="apply_now">
-    <a href="http://jobs.dream.org">Apply now!</a>
+    <a href="http://jobs.dream.org">Get Started</a>
   </h2>
 
 
