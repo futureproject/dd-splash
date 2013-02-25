@@ -2,6 +2,7 @@
   position: relative;
   height: 100%;
   width: 100%;
+  min-width: 880px;
   overflow: hidden;
   box-sizing: border-box;
   padding: 2em;
@@ -17,6 +18,7 @@
   margin: 12px 24px 24px;
   z-index: 10;
   position: relative;
+  white-space: nowrap;
 }
 
 #apply_now {
@@ -24,6 +26,7 @@
   bottom: 2em;
   left: 1.3em;
   -webkit-animation-delay: 1.4s;
+  padding-top: .2em;
 }
 
 #blurb {
@@ -37,6 +40,7 @@
   bottom: 1em;
   left: 1em;
   z-index: -1;
+  overflow: hidden;
 }
 
 #city {
@@ -50,7 +54,10 @@
 }
 
 #footer {
-  margin-top: -2em;
+  margin-top: -3em;
+  padding: 0 3em 0;
+  z-index: 11;
+  position: relative;
 }
 
 #sje {
