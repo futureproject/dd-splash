@@ -3119,6 +3119,15 @@ html {
 #clouds_right {
   background-image: url(/images/clouds_r.png); }
 
+a {
+  color: inherit;
+  text-decoration: none; }
+
+#footer {
+  text-shadow: -1px 1px 0 white; }
+  #footer a {
+    color: #2b556b; }
+
 .bubble {
   background: white;
   border: 2px solid #2b556b;
@@ -3166,6 +3175,8 @@ img {
   position: relative;
   height: 100%;
   width: 100%;
+  min-width: 1024px;
+  min-height: 620px;
   overflow: hidden;
   box-sizing: border-box;
   padding: 2em; }
@@ -3178,13 +3189,15 @@ img {
 #dds {
   margin: 12px 24px 24px;
   z-index: 10;
-  position: relative; }
+  position: relative;
+  white-space: nowrap; }
 
 #apply_now {
-  position: absolute;
-  bottom: 2em;
-  left: 1.3em;
-  -webkit-animation-delay: 1.4s; }
+  -webkit-animation-delay: 1.4s;
+  padding-top: .2em;
+  display: block;
+  width: 260px;
+  text-align: center; }
 
 #blurb {
   -webkit-animation-delay: .8s; }
@@ -3195,7 +3208,8 @@ img {
   right: 1em;
   bottom: 1em;
   left: 1em;
-  z-index: -1; }
+  z-index: -1;
+  overflow: hidden; }
 
 #city {
   width: 1080px;
@@ -3207,7 +3221,13 @@ img {
   z-index: 0; }
 
 #footer {
-  margin-top: -2em; }
+  margin-top: -5em;
+  padding: 0 2em;
+  z-index: 11;
+  position: relative; }
+  #footer a {
+    margin: 0 24px;
+    font-size: .75em; }
 
 #sje {
   margin-top: 500px;
