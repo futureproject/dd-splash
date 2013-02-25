@@ -2,7 +2,7 @@
   position: relative;
   height: 100%;
   width: 100%;
-  min-width: 1024px;
+  min-width: 960px;
   min-height: 620px;
   overflow: hidden;
   box-sizing: border-box;
@@ -26,7 +26,7 @@
   -webkit-animation-delay: 1.4s;
   padding-top: .2em;
   display: block;
-  width: 340px;
+  width: 440px;
   text-align: center;
   a { display: block; }
 }
@@ -55,15 +55,13 @@
   z-index: 0;
 }
 
-#footer {
-  margin-top: -4em;
-  padding: 0 2em;
-  z-index: 11;
-  position: relative;
-  a {
-    margin: 0 24px;
-    font-size: .75em;
-  }
+#portraits {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 640px;
+  width: 690px;
+  overflow: hidden;
 }
 
 #sje {
@@ -93,9 +91,22 @@
 
 #clouds_right {
   position: absolute;
-  top: 1em;
-  right: 1em;
+  top: 0;
+  right: 0;
   width: 535px;
   height: 824px;
   z-index: 1;
+}
+
+#footer {
+  margin-top: -4em;
+  padding: 0 2em;
+  z-index: 11;
+  position: relative;
+  a {
+    margin: 0 24px;
+    font-size: .75em;
+    display: inline-block;
+  }
+  p { margin: 0; }
 }
