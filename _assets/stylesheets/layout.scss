@@ -2,7 +2,8 @@
   position: relative;
   height: 100%;
   width: 100%;
-  min-width: 880px;
+  min-width: 1024px;
+  min-height: 620px;
   overflow: hidden;
   box-sizing: border-box;
   padding: 2em;
@@ -22,11 +23,11 @@
 }
 
 #apply_now {
-  position: absolute;
-  bottom: 2em;
-  left: 1.3em;
   -webkit-animation-delay: 1.4s;
   padding-top: .2em;
+  display: block;
+  width: 260px;
+  text-align: center;
 }
 
 #blurb {
@@ -54,10 +55,14 @@
 }
 
 #footer {
-  margin-top: -3em;
-  padding: 0 3em 0;
+  margin-top: -5em;
+  padding: 0 2em;
   z-index: 11;
   position: relative;
+  a {
+    margin: 0 24px;
+    font-size: .75em;
+  }
 }
 
 #sje {
