@@ -3114,6 +3114,12 @@ html {
 #sky {
   background-color: #78D0EB; }
 
+#help {
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white; }
+
+#footer a:hover {
+  color: black !important; }
+
 #clouds_left {
   background-image: url(/images/clouds_l.png); }
 
@@ -3137,6 +3143,7 @@ a:hover {
 
 .bubble {
   background: white;
+  background: rgba(255, 255, 255, 0.9);
   border: 2px solid #2b556b;
   box-shadow: -4px 4px 0 #2b556b; }
   .bubble:active {
@@ -3276,7 +3283,9 @@ img {
   #footer a {
     margin: 0 24px;
     font-size: .75em;
-    display: inline-block; }
+    display: block; }
+    #footer a:after {
+      content: " \25B8"; }
   #footer p {
     margin: 0; }
 
