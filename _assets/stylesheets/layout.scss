@@ -106,7 +106,10 @@
   a {
     margin: 0 24px;
     font-size: .75em;
-    display: inline-block;
+    display: block;
+    &:after {
+      content: " \25B8";
+    }
   }
   p { margin: 0; }
 }

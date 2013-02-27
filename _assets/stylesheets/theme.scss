@@ -20,6 +20,17 @@ html {
   background-color: #78D0EB;
 }
 
+ #help {
+  text-shadow:
+   -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+   }
+  #footer a:hover {
+    color: black !important;
+  }
+
 #clouds_left {
   background-image: url(/images/clouds_l.png)
 }
@@ -39,6 +50,7 @@ a:hover { color: orange; }
 
 .bubble {
   background: white;
+  background: rgba(255,255,255,.9);
   border: 2px solid #2b556b;
   box-shadow: -4px 4px 0 #2b556b;
   &:active {
